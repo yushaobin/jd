@@ -1,0 +1,179 @@
+html,body {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f0f3ef;
+}
+.navigator {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #e3e4e5;
+	font-size: 12px;
+}
+.navigator nav {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.navigator nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.navigator nav ul li {
+	float: left;
+	/*border: 1px solid red;*/
+}
+
+.navigator nav ul li a {
+	text-decoration: none;
+	color: #999;
+	width: 100%;
+}
+
+.navigator nav ul li a:hover {
+	color: #c81623;
+}
+.fr {
+	float: right;
+}
+
+.navigator nav ul li.seperator {
+	width: 1px;
+	height: 10px;
+	margin: 11px 5px 0;
+	background: #ccc;
+}
+
+.navigator nav ul li.down {
+	padding-right: 2em;
+	padding-left: 1em;
+	background: url(../img/down.png) no-repeat;
+	background-size: 12px 12px;
+	background-position: 93% 55%;
+	border: 1px solid transparent;
+	position: relative;
+}
+.navigator nav ul li.down:hover {
+	background:#fff url(../img/down.png) no-repeat;
+	background-size: 12px 12px;
+	background-position: 93% 55%;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+
+.navigator nav ul li.down > div {
+	/*width: 200px;*/
+	/*height: 150px;*/
+	border: 1px solid #ccc;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+	position: absolute;
+	background: #fff;
+	border-top: none;
+	border-left: none;
+	/*padding-bottom: 1em;*/
+	display: none;
+}
+.left {
+	left: 0;
+}
+.right {
+	right: 0;
+}
+
+.navigator nav ul li.down:hover > div {
+	display: block;
+}
+
+.myjd {
+	width: 300px;
+}
+
+.enterprice-purchase {
+	width: 180px;
+}
+.service {
+	width: 180px;
+}
+
+.web-nav {
+	box-sizing: border-box;
+	width: 1300px;
+	left: -1155px;
+}
+
+.web-nav > div {
+	box-sizing: border-box;
+	float: left;
+}
+
+.jd-list {
+	overflow: auto;
+	padding: 1em 0;
+}
+.jd-list h1{
+	padding: 1em;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+.jd-list .list-item {
+	box-sizing: border-box;
+	float: left;
+	padding: 0 1em;
+	line-height: 2em;
+}
+
+.myjd .jd-list .list-item {
+	width: 150px;
+}
+.enterprice-purchase .jd-list .list-item {
+	width: 90px;
+}
+.service .jd-list .list-item {
+	width: 90px;
+}
+
+.web-nav .c1 {
+	width: 410px;
+}
+.web-nav .c2 {
+	width: 272px;
+}
+.web-nav .c3 {
+	width: 302px;
+}
+.web-nav .c4 {
+	width: 310px;
+}
+.c1 .jd-list .list-item {
+	width: 100px;
+}
+
+.c2 .jd-list .list-item {
+	width: 90px;
+}
+.c3 .jd-list .list-item {
+	width: 100px;
+}
+.c4 .jd-list .list-item {
+	width: 100px;
+}
+
+.h {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.vbox {
+	height: 150px;
+	width: 1px;
+	background: #ccc;
+	border: none;
+	margin-top: 1em;
+}
